@@ -1,9 +1,50 @@
-<html>
+<!DOCTYPE html>
+<html
+  lang="id"
+  align="center"
+  alt="UGC Craftland"
+  onMouseDown="return false;"
+  oncontextmenu="return false;"
+  onselectstart="return false"
+  unselectable="on"
+>
   <head>
-    <title>Craftland</title>
-    <link rel="stylesheet" href="style.css">
+    <title>INFO</title>
+    <style>
+      html {
+        background: black center;
+        background-image: url('https://cdn.statically.io/gh/UGC-Craftland/Blogger/main/MaintenanceHD.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .a1 {
+        animation: anim1 2s;
+        animation-fill-mode: forwards;
+      }
+      @keyframes anim1 {
+        from {opacity: 1.0}
+        to {opacity: 0.0; visibility: hidden;}
+      }
+    </style>
   </head>
   <body>
-    Craftland
+    <a href="../p/ob1.html" target="Preview" class="button001 link_black a1"
+      >OB1
+      <a href="../p/ob2.html" target="Preview" class="button001 link_black a2"
+        >OB2</a
+      >
+      <a href="../p/ob3.html" target="Preview" class="button001 link_black a3"
+        >OB3</a
+      >
+    </a>
+    <hr />
+    <iframe
+      src="../p/info-index.html"
+      width="101%"
+      height="100%"
+      name="Preview"
+      style="border:none"
+    />
   </body>
 </html>
