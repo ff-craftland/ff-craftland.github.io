@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Thin;
+  src: url('GFF-Thin')
+}
+
+@font-face {
+  font-family: Regular;
+  src: url('GFF-Regular')
+}
+
+@font-face {
+  font-family: Medium;
+  src: url('GFF-Medium')
+}
+
+@font-face {
+  font-family: Bold;
+  src: url('GFF-Bold')
+}
