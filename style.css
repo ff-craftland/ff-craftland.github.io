@@ -1,0 +1,20 @@
+html {
+  background: black url('background') no-repeat;
+  background-size: cover;
+  color: white;
+  border: 5px solid #FFBA00;
+  font-family: Regular;
+}
+
+body{
+  
+}
+
+header {
+  background: #FFBA00;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
