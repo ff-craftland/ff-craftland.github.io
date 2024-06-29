@@ -1,0 +1,15 @@
+
+.header {
+  background: black;
+  border-bottom: 5px solid grey;
+  display: flex;
+  padding: 5px 10px 5px 5px;
+  margin: -8 -8 8 -8;
+  font-family: bold;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_space {
+  width: 60%;
+}

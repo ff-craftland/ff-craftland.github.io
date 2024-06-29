@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: Regular;
+  src: url(../font/latin/GFF-Latin-Regular)
+}
+
+@font-face {
+  font-family: Medium;
+  src: url(../font/latin/GFF-Latin-Medium)
+}
+
+html {
+  background: black url(../image/background/Background_WebEvent_Home.png) center fixed;
+  background-size: cover;
+  color: white;
+  font-family: Regular;
+}
+
+body{
+  
+}
+
+.main_title_icon {
+  width: 40%;
+}
+
+.main_title_icon2 {
+  position: absolute;
+  left: 15%;
+  width: 70%;
+}
+
+.main_title_icon3 {
+  position: absolute;
+  left: 15%;
+  width: 70%;
+}

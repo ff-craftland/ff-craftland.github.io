@@ -1,0 +1,13 @@
+
+footer {
+  background: black;
+  color: grey;
+  box-shadow: 0px -5px 10px #444;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  font-family: Regular;
+  font-size: 80%;
+}
