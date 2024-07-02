@@ -16,22 +16,20 @@ html {
   font-family: Regular;
 }
 
-body{
-  
+.main span {
+  display: flex;
+  margin: -5px;
 }
-
 .main_title_icon {
-  width: 40%;
+  position: absolute;
+  left: 35%;
+  margin-top: 3%;
+  z-index: 1;
 }
 
 .main_title_icon2 {
   position: absolute;
-  left: 15%;
-  width: 70%;
-}
-
-.main_title_icon3 {
-  position: absolute;
-  left: 15%;
-  width: 70%;
+  left: 20%;
+  margin-top: 33%;
+  z-index: 2;
 }
